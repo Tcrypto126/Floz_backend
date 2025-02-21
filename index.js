@@ -16,6 +16,7 @@ const SCOPES = ['https://www.googleapis.com/auth/gmail.send'];
 const TOKEN_PATH = path.join(__dirname, 'token.json');
 const CREDENTIALS_PATH = path.join(__dirname, 'credentials.json');
 
+
 // Initialize the OAuth2 client globally
 let oAuth2Client;
 
